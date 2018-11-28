@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMaps'
   s.dependency 'GooglePlaces'
   s.dependency 'SwiftyGif'
-
+  s.dependency 'PizzaHutCore'
   s.swift_version = "4.2"
 
 end

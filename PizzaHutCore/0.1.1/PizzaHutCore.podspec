@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/pizzahutuk/gms2.0-ios"
   s.license          = 'MIT'
   s.author           = { "Ha Xuan Thuong" => "thuong.ha@pizzahut.io" }
-  s.source           = { :git => "git@github.com:pizzahutuk/gms2.0-ios.git", :tag => "0.1.3", :branch => 'develop' }
+  s.source           = { :git => "git@github.com:pizzahutuk/gms2.0-ios.git", :tag => "0.1.4", :branch => 'develop' }
   # s.source           = { :git => "git@github.com:pizzahutuk/gms2.0-ios.git", :tag => "0.1.3", :branch => 'develop' }
   s.ios.deployment_target = '10.0'
   s.static_framework = true

@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Core"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "Global framework for PHDV."
   s.description      = "Global framework is used as common resources for all markets"
   s.homepage         = "https://github.com/pizzahutuk/gms2.0-ios"
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, '10.0'
   # s.requires_arc = true
 
-  s.source_files = 'Global/Modules/Core/Core/**/*.{h,m,Swift,storyboard,xib}'
+  s.source_files = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'Global/Modules/Core/Core/**/*.{png,jpeg,jpg,xcassets,json,plist}'
+  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json}'
   # s.public_header_files = '/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.libraries = 'c', 'sqlite3', 'stdc++'

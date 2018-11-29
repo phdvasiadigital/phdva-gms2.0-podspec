@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description      = "Global framework is used as common resources for all markets"
   s.homepage         = "https://github.com/pizzahutuk/gms2.0-ios"
   s.license          = 'MIT'
-  s.author           = { "Thai Huynh" => "thai.huynh@pizzahut.io" }
+  s.author           = { "Ha Xuan Thuong" => "thuong.ha@pizzahut.io" }
   s.source           = { :git => "git@github.com:pizzahutuk/gms2.0-ios.git", :branch => 'develop' }
   # s.source           = { :git => "git@github.com:pizzahutuk/gms2.0-ios.git", :tag => "0.1.3", :branch => 'develop' }
   s.ios.deployment_target = '10.0'

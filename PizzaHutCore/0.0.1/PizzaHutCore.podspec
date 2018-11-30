@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'KeychainAccess'
   s.dependency 'IQKeyboardManagerSwift'
   s.dependency 'Localize-Swift'
-  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'EmptyDataSet-Swift', '~> 4.2.0'
   s.dependency 'RxSwift', '~> 4.0'
   s.dependency 'RxCocoa', '~> 4.0'
   s.dependency 'Moya/RxSwift', '~> 11.0'

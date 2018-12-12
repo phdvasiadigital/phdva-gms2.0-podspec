@@ -37,6 +37,12 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMaps'
   s.dependency 'GooglePlaces'
   s.dependency 'SwiftyGif'
+  s.dependency 'iCarousel'
+  s.dependency 'ReachabilitySwift'
+  s.dependency 'SwiftLint'
+  s.dependency 'SwiftDate'
+  s.dependency 'Firebase/Core'
+  s.dependency 'AppCenter'
 
   s.swift_version = "4.2"
 

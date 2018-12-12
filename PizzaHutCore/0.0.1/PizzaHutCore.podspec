@@ -42,7 +42,6 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftLint'
   s.dependency 'SwiftDate'
   s.dependency 'Firebase/Core'
-  s.dependency 'AppCenter'
 
   s.swift_version = "4.2"
 

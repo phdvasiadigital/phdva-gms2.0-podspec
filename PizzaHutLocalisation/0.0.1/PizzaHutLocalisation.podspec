@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{png,jpeg,jpg,xcassets,json}'
+  s.resources = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{png,jpeg,jpg,xcassets,json,plist}'
+  s.support_file = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{plist}'
   # s.public_header_files = '/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.libraries = 'c', 'sqlite3', 'stdc++'

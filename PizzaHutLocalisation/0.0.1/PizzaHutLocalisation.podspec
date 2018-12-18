@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios, '10.0'
   # s.requires_arc = true
-
+  s.pod_target_xcconfig = {
+            'INFOPLIST_FILE'=>'PizzaHutCore/Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/Info.plist' }
   s.source_files = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{h,m,Swift}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
   s.resources = 'Global/Modules/PizzaHutLocalisation/PizzaHutLocalisation/**/*.{png,jpeg,jpg,xcassets,json,plist,storyboard,xib}'

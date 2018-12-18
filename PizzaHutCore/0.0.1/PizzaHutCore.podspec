@@ -20,6 +20,9 @@ Pod::Spec.new do |s|
   s.source_files = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
   s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist,tiff,ttf,otf}'
+  s.resource_bundles = {
+     'PizzaHutCore' => ['Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist,tiff,ttf,otf,storyboard,xib}']
+   }
   # s.public_header_files = '/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.libraries = 'c', 'sqlite3', 'stdc++'

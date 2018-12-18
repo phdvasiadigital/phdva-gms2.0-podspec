@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
             'INFOPLIST_FILE'=>'Resources/Info.plist' }
   s.source_files = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{h,m,Swift}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist,tiff,ttf,otf,storyboard,xib}'
+  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,tiff,ttf,otf,storyboard,xib}'
 #   s.resource_bundles = {
 #      'PizzaHutCore' => ['Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist,tiff,ttf,otf,storyboard,xib}']
 #    }

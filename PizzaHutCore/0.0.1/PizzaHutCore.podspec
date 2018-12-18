@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, '10.0'
   # s.requires_arc = true
   s.pod_target_xcconfig = {
-            'INFOPLIST_FILE'=>'Global/Modules/PizzaHutCore/PizzaHutCore/**/Info.plist' }
+            'INFOPLIST_FILE'=>'Resources/Info.plist' }
   s.source_files = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json}'
+  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist}'
   # s.public_header_files = '/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.libraries = 'c', 'sqlite3', 'stdc++'

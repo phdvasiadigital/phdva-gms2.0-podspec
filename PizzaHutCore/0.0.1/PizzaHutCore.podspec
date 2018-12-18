@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'SnapKit'
   s.dependency 'CocoaLumberjack/Swift'
-  s.dependency 'Kingfisher'
+  s.dependency 'Kingfisher', '5.0.0'
   s.dependency 'KeychainAccess'
   s.dependency 'IQKeyboardManagerSwift'
   s.dependency 'Localize-Swift'

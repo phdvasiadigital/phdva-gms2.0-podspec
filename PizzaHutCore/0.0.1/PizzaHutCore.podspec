@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
             'INFOPLIST_FILE'=>'Resources/Info.plist' }
   s.source_files = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist}'
+  s.resources = 'Global/Modules/PizzaHutCore/PizzaHutCore/**/*.{png,jpeg,jpg,xcassets,json,plist,tiff,ttf,otf}'
   # s.public_header_files = '/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   # s.libraries = 'c', 'sqlite3', 'stdc++'
